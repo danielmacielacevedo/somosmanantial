@@ -263,7 +263,7 @@ h5
     background-position: bottom;
     transition: all .5s ease-in-out;
     transform: translateX(870px);
-    top: 80px;
+    top: 120px;
     left: 0;
 }
 .menu-mobile-background.open
