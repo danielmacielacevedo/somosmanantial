@@ -282,3 +282,17 @@ maestro20.addEventListener('click' , () => {
         verifyMaestro20 = false;
     }
 })
+
+const maestro21 = document.querySelector('.maestro21');
+const dataMaestro21 = document.querySelector('.table-data21')
+let verifyMaestro21 = false;
+
+maestro21.addEventListener('click', () => {
+    if(!verifyMaestro21) {
+        dataMaestro21.classList.add('on')
+        verifyMaestro21 = true;
+    } else {
+        dataMaestro21.classList.remove('on')
+        verifyMaestro21 = false;
+    }
+})

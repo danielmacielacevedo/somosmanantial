@@ -584,7 +584,8 @@ h5
 .table-data17,
 .table-data18,
 .table-data19,
-.table-data20
+.table-data20,
+.table-data21
 {
     display: none;
 }
@@ -608,7 +609,8 @@ h5
 .table-data17.on,
 .table-data18.on,
 .table-data19.on,
-.table-data20.on
+.table-data20.on,
+.table-data21.on
 {
     display: flex;
 }
