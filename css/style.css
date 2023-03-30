@@ -85,29 +85,33 @@ main
 
 h1
 {
+    font-family: 'Noto Serif Display', serif;
     font-size: 40px;
     font-weight: 700;
 }
 h2
 {
+    font-family: 'Noto Serif Display', serif;
     font-size: 30px;
     font-weight: 400;
     /* margin-bottom: 14px; */
 }
 h3
 {
+    font-family: 'Noto Serif Display', serif;
     font-size: 16px;
 }
 h4
 {
+    font-family: 'Noto Serif Display', serif;
     font-size: 8px;
     font-weight: 100;
 }
 h5
 {
     font-family: 'Noto Serif Display', serif;
-    font-size: 20px;
-    font-weight: 900 swap;
+    font-size: 30px;
+    font-weight: 400;
 }
 p 
 {
@@ -214,6 +218,7 @@ p
 .nav-links a
 {
     display: flex;
+    font-family: 'Noto Serif Display', serif;
     font-size: 20px;
     font-weight: 400;
     color: var(--color);
@@ -382,7 +387,8 @@ p
     background-color: #000;
     color: #fff;
     font-size: 12px;
-    border-radius: 4px;
+    border: none;
+    border-radius: 0px;
     justify-content: center;
     align-items: center;
 }
@@ -510,7 +516,7 @@ p
     height: 40px;
     margin: 8px 0 0 0;
     padding: 0 20px 2.4px 20px;
-    border-radius: 6px;
+    border-radius: 0px;
     font-size: 14px;
     background-color: #f0f0f0;
     color: var(--grey);
@@ -532,12 +538,103 @@ p
     justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 6px;
+    gap: 10px;
 }
 .horarios-container a
 {
     background-color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* article blog */
 
@@ -636,10 +733,11 @@ p
 #top-featured-title
 {
     position: relative;
-    top: 180px;
+    top: 170px;
     z-index: 8;
-    font-family: 'Roboto', sans-serif;
-    font-size: 140px;
+    font-family: 'Noto Serif Display', serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 100px;
     font-weight: 700;
     animation: color-title 8s infinite ease-in-out;
 }
@@ -648,6 +746,7 @@ p
     position: absolute;
     top: 370px;
     color: #fff;
+    font-family: 'Noto Serif Display', serif;
     font-family: 'Roboto', sans-serif;
     font-size: 500px;
     font-weight: 900;
@@ -796,7 +895,7 @@ p
     height: 40px;
     margin: 8px 0 0 0;
     padding: 0 20px 2.4px 20px;
-    border-radius: 6px;
+    border-radius: 0px;
     background: linear-gradient(to right, var(--gradient3), var(--gradient2), var(--gradient1), var(--gradient2), var(--gradient3));
     background-size: 1000% 1000%;
     animation: animate-background 8s infinite ease-in-out;
@@ -1451,6 +1550,7 @@ element.style {
 {
     font-size: 16px;
     font-weight: 400;
+    font-family: Roboto;
     /* margin: 0 0 20px 0; */
     text-align: right;
     color: var(--copyright);
@@ -1458,6 +1558,7 @@ element.style {
 }
 .copyright-footer h3
 {
+    font-family: Roboto;
     margin-top: 66px;
     text-align: center;
 }
@@ -1510,11 +1611,11 @@ element.style {
 .footer-social-media a
 {
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     text-align: left;
     text-decoration: none;
-    color: white;
+    color: #f0f0f0;
 }
 .footer-social-media li:nth-child(1) span
 {
@@ -1614,9 +1715,14 @@ element.style {
     }
     h2
     {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 400;
         /* margin-bottom: 14px; */
+    }
+    h5
+    {
+        font-size: 14px;
+        /* font-weight: 400; */
     }
     .nav-full img
     {
@@ -1671,8 +1777,8 @@ element.style {
     }
     #top-featured-title
     {
-        top: 270px;
-        font-size: 60px;
+        top: 280px;
+        font-size: 46px;
     }
     #bottom-featured-title
     {
