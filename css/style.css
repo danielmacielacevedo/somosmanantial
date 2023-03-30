@@ -291,6 +291,7 @@ p
 }
 .links-mobile a
 {
+    font-family: 'Noto Serif Display', serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 80px;
