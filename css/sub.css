@@ -85,17 +85,20 @@ main
 
 h1
 {
+    font-family: 'Noto Serif Display', serif;
     font-size: 40px;
     font-weight: 700;
 }
 h2
 {
+    font-family: 'Noto Serif Display', serif;
     font-size: 30px;
     font-weight: 400;
     /* margin-bottom: 14px; */
 }
 h3
 {
+    font-family: 'Noto Serif Display', serif;
     font-size: 16px;
 }
 h4
@@ -213,6 +216,7 @@ p
 .nav-links a
 {
     display: flex;
+    font-family: 'Noto Serif Display', serif;
     font-size: 20px;
     font-weight: 400;
     color: var(--color);
@@ -284,6 +288,7 @@ p
 }
 .links-mobile a
 {
+    font-family: 'Noto Serif Display', serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 80px;
@@ -506,8 +511,8 @@ p
     display: flex;
     width: fit-content;
     height: auto;
-    background-color: #000;
-    color: #fff;
+    background-color: #d6d6d6;
+    color: #7e7e7e;
     padding: 8px;
 }
 .imagen-container
@@ -618,6 +623,7 @@ p
     height: 60px;
     background-color: #000;
     color: #fff;
+    font-family: 'Noto Serif Display', serif;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -631,7 +637,7 @@ p
     height: 40px;
     margin: 8px 0 0 0;
     padding: 0 20px 2.4px 20px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     font-size: 14px;
     background-color: #f0f0f0;
     color: var(--grey);
@@ -653,7 +659,7 @@ p
     justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 6px;
+    gap: 20px;
 }
 .horarios-container a
 {
@@ -1618,6 +1624,7 @@ element.style {
 }
 .footer-background h3
 {
+    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     /* margin: 0 0 20px 0; */
@@ -1627,6 +1634,7 @@ element.style {
 }
 .copyright-footer h3
 {
+    font-family: Roboto;
     margin-top: 66px;
     text-align: center;
 }
@@ -1637,6 +1645,7 @@ element.style {
 .footer-links
 {
     display: flex;
+    font-family: Roboto;
     justify-content: space-around;
     align-items: flex-start;
     gap: 20px;
