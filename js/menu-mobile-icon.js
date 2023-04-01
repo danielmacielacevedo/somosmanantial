@@ -35,3 +35,11 @@ menu2.addEventListener('click', () =>
         menuContent.classList.remove('open');
         menuOpen = false;
 });
+
+const menu3 = document.querySelector('.mobile3');
+
+menu3.addEventListener('click', () => {
+    menuButton.classList.remove('open');
+    menuContent.classList.remove('open');
+    menuOpen = false;
+})
