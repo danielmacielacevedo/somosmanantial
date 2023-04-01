@@ -97,7 +97,7 @@ h2
 }
 h3
 {
-    font-family: 'Noto Serif Display', serif;
+    /* font-family: 'Noto Serif Display', serif; */
     font-size: 16px;
     font-weight: 400;
 }
@@ -108,7 +108,7 @@ h4
 }
 h5
 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 }
 h6
@@ -607,7 +607,7 @@ p
 {
     color: #fff;
 }
-.sidebar-recomendados-article
+.sidebar-recomendados-article a
 {
     position: relative;
     display: flex;
@@ -618,8 +618,13 @@ p
     border-radius: 16px;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px;
-    gap: 10px;
+    /* padding: 10px; */
+    /* gap: 20px; */
+}
+.sidebar-recomendados-article a
+{
+    display: flex;
+    text-decoration: none;
 }
 #manantial-ads
 {
@@ -631,6 +636,7 @@ p
     animation: animate-background 8s infinite ease-in-out;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 #manantial-ads span:nth-child(1)
 {
@@ -658,13 +664,19 @@ p
     display: flex;
     flex: 1;
     width: 100%;
-    height: auto;
+    height: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+
 }
 .imagen-recomendados img 
 {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
 }
 .info-recomendados
 {
@@ -672,6 +684,7 @@ p
     flex-direction: column;
     flex: 1;
     gap: 10px;
+    padding: 20px;
 }
 .ytp-title-channel
 {
@@ -715,6 +728,13 @@ p
     display: -moz-box;
     display: -ms-flexbox;
     display: none;
+}
+
+
+/* miniaturas */
+.jesucristo-sigue-siendo-el-mismo
+{
+    background-image: url('../assets/predicadores/pastor-isaac/jesucristo-sigue-siendo-el-mismo.jpg');
 }
 
 
@@ -2128,6 +2148,10 @@ element.style {
     {
         font-size: 14px;
     }
+    h5
+    {
+        font-size: 14px;
+    }
     .nav-full img
     {
         height: 30px;
@@ -2224,7 +2248,7 @@ element.style {
     }
     .info-reproductor-container
     {
-        padding: 59vw 20px 0;
+        padding: 61vw 20px 0;
     }
     .sidebar-recomendados
     {
@@ -2234,6 +2258,49 @@ element.style {
     {
         padding: none;
     }
+    .ytp-title-channel
+{
+    display: none !important;
+}
+.ytp-chrome-top {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -moz-box;
+    display: none;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: end;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-box-pack: end;
+    justify-content: flex-end;
+    left: 12px;
+    right: 12px;
+    top: 0;
+    z-index: 58;
+}
+.ytp-title-enable-channel-logo .ytp-title-channel {
+    display: none;
+    display: none;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: none;
+}
+.ytp-title {
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: none;
+}
 
 
 
