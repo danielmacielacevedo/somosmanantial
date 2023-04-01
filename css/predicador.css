@@ -528,7 +528,7 @@ p
     width: 100%;
     height: 100%;
     background-color: #f0f0f0;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     gap: 20px;
@@ -536,6 +536,8 @@ p
 .info-card-article p 
 {
     font-size: 12px;
+    background-color: #fff;
+    padding: 5px 10px;
 }
 .principal-section-articles
 {
