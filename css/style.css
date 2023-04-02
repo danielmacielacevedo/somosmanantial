@@ -673,6 +673,11 @@ p
     cursor: pointer;
     transition: .6s;
 }
+#black-button
+{
+    background-color: black;
+    color: white;
+}
 .horarios-container
 {
     display: flex;
