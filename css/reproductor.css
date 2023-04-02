@@ -640,6 +640,7 @@ p
     display: flex;
     position: relative;
     height: 200px;
+    /* background-color: #1d1d1d; */
     background: linear-gradient(to right, var(--gradient3), #444444, var(--gradient3));
     background-size: 1000% 1000%;
     animation: animate-background 8s infinite ease-in-out;
@@ -656,8 +657,22 @@ p
     width: fit-content;
     height: fit-content;
     padding: 10px;
-    border-radius: 20px 0 0 0;
+    border-radius: 20px 0 20px 0;
     background-color: goldenrod;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+#manantial-ads i
+{
+    width: 16px;
+    height: 16px;
+    background-image: url('../assets/light_logo_manantial.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #manantial-ads img
 {
