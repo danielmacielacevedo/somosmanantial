@@ -473,16 +473,26 @@ p
     left: 0;
     z-index: 0;
 }
+
+
+
+/* PRÓXIMAMENTE, esta sección cambiará su flex-direction en WEB a column, al realizar cierto scroll en las prédicas recomendadas */
 .principal-section
 {
     display: flex;
     /* flex-direction: column; */
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 20px 5% 20px 5%;
     gap: 5%;
     /* text-align: center; */
+    animation-duration: 2s;
 }
+
+
+
+
+
 .reproductor-container
 {
     position: relative;
@@ -532,6 +542,8 @@ p
     height: auto;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    text-decoration: none;
 }
 .profile-picture
 {
@@ -638,15 +650,34 @@ p
 #manantial-ads
 {
     display: flex;
+    flex-direction: column;
     position: relative;
-    height: 200px;
-    /* background-color: #1d1d1d; */
-    background: linear-gradient(to right, var(--gradient3), #444444, var(--gradient3));
+    height: auto;
+    background-color: #0e0e0e;
+    /* background: linear-gradient(to right, var(--gradient3), #444444, var(--gradient3));
     background-size: 1000% 1000%;
-    animation: animate-background 8s infinite ease-in-out;
+    animation: animate-background 8s infinite ease-in-out; */
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+#manantial-ads div
+{
+    /* position: absolute; */
+    bottom: 20px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #1d1d1d;
+    border-radius: 0 0 20px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+#manantial-ads div p
+{
+    font-weight: 400;
 }
 #manantial-ads span:nth-child(1)
 {
@@ -677,7 +708,11 @@ p
 #manantial-ads img
 {
     width: auto;
-    height: 300px;
+    height: 160px;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    object-position: top;
+    padding: 20px;
 }
 #sidebar-slider
 {
@@ -688,7 +723,7 @@ p
     display: flex;
     flex: 1;
     width: 100%;
-    height: 160px;
+    height: 140px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -701,6 +736,7 @@ p
     height: auto;
     border-radius: 10px 0 0 10px;
     object-fit: cover;
+    object-position: top;
 }
 .info-recomendados
 {
