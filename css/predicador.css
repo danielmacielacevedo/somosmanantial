@@ -478,6 +478,12 @@ p
     display: flex;
     gap: 20px;
 }
+.second-section-article
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .secondary-section-articles
 {
     display: flex;
@@ -503,7 +509,7 @@ p
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
     height: auto;
     /* height: 150px; */
     /* background-color: #f0f0f0; */
